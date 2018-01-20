@@ -15,5 +15,11 @@
         android:textAllCaps="false"
         android:text="Dialog activity"
         android:onClick="onClick"/>
-
+    <Button
+        android:id="@+id/bt_lucky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Show Lucky Activity"
+        android:onClick="onClick"/>
 </LinearLayout>

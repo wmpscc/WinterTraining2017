@@ -33,6 +33,7 @@ public class DialogActivity extends AppCompatActivity {
                 showCustomDialog();
                 break;
 
+
         }
     }
 

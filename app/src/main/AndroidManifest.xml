@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".DialogActivity">
         </activity>
+        <activity android:name=".LearnForActivity">
+        </activity>
+        <activity android:name=".LuckyActivity">
+        </activity>
     </application>
 
 </manifest>

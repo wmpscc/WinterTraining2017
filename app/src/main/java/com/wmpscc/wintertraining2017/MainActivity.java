@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_dialog_activity:
                 startActivity(new Intent(this,DialogActivity.class));
                 break;
+            case R.id.bt_lucky:
+                startActivity(new Intent(this,LearnForActivity.class));
+                break;
         }
 
     }
