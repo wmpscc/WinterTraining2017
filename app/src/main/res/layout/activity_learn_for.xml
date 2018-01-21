@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wmpscc.wintertraining2017.LearnForActivity">
+    tools:context="com.wmpscc.wintertraining2017.Activity.LearnForActivity">
 
     <TextView
         android:text="今日运势"

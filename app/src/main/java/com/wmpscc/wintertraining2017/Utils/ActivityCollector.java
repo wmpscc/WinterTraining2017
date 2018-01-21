@@ -1,4 +1,4 @@
-package com.wmpscc.wintertraining2017;
+package com.wmpscc.wintertraining2017.Utils;
 
 import android.app.Activity;
 

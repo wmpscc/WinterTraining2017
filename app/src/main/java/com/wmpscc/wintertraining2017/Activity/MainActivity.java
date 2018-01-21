@@ -1,9 +1,11 @@
-package com.wmpscc.wintertraining2017;
+package com.wmpscc.wintertraining2017.Activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.wmpscc.wintertraining2017.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +23,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_lucky:
                 startActivity(new Intent(this,LearnForActivity.class));
                 break;
-        }
+            case R.id.bt_fragment_activity:
+                startActivity(new Intent(this,LearnFragmentActivity.class));
+                break;
 
+
+        }
     }
 }
