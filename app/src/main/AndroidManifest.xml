@@ -3,6 +3,7 @@
           package="com.wmpscc.wintertraining2017">
 
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
         android:allowBackup="true"
@@ -29,6 +30,10 @@
         <activity android:name=".Activity.ViewPagerActivity">
         </activity>
         <activity android:name=".Activity.PermissionActivity">
+        </activity>
+        <activity android:name=".Activity.MenuActivity">
+        </activity>
+        <activity android:name=".Activity.RecycleViewActivity">
         </activity>
     </application>
 

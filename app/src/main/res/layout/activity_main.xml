@@ -43,4 +43,18 @@
         android:textAllCaps="false"
         android:text="Show Permission Activity"
         android:onClick="onClick"/>
+    <Button
+        android:id="@+id/bt_menu_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Show Menu Activity"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/bt_recycleView_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Show RecycleView Activity"
+        android:onClick="onClick"/>
 </LinearLayout>

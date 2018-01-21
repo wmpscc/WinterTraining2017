@@ -32,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_permission_activity:
                 startActivity(new Intent(this, PermissionActivity.class));
                 break;
+            case R.id.bt_menu_activity:
+                startActivity(new Intent(this, MenuActivity.class));
+                break;
+                case R.id.bt_recycleView_activity:
+                startActivity(new Intent(this, RecycleViewActivity.class));
+                break;
 
 
         }
