@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_fragment_activity:
                 startActivity(new Intent(this,LearnFragmentActivity.class));
                 break;
+            case R.id.bt_view_pager_activity:
+                startActivity(new Intent(this,ViewPagerActivity.class));
+                break;
+            case R.id.bt_permission_activity:
+                startActivity(new Intent(this, PermissionActivity.class));
+                break;
 
 
         }
